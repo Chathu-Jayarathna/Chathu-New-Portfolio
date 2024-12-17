@@ -95,7 +95,7 @@ function Achievements() {
       <div className="py-20 w-full">
         <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
           <span className="text-white">Achieved </span>
-          <span className="text-purple-300">Certificated</span>
+          <span className="text-purple-300">Certificates</span>
         </h1>
 
         {/* Add the AnimatedTestimonials component here */}
