@@ -10,7 +10,6 @@ import RecentProjects from './Pages/RecentProjects';
 import Achievements from './Pages/Achievements';
 import Approach from './Pages/Approach';
 import Contact from './Pages/Contact';
-import Footer from './Pages/Footer';
 import { TracingBeam } from "./Components/ui/tracing-beam";
 import { FloatingNav } from "./Components/ui/FloatingNavbar";
 
@@ -63,7 +62,6 @@ function App() {
           <Contact />
         </Element>
       </TracingBeam>
-      <Footer />
     </Router>
   );
 }
