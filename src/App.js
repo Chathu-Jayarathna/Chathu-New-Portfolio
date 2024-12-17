@@ -6,7 +6,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Skills from './Pages/Skills';
 import Experience from './Pages/Experience';
-import Projects from './Pages/Projects';
+import RecentProjects from './Pages/RecentProjects';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import { TracingBeam } from "./Components/ui/tracing-beam";
@@ -17,7 +17,7 @@ function App() {
     { name: "About", link: "about" },
     { name: "Skills", link: "skills" }, // Referencing sections by name
     { name: "Experience", link: "workExperience" },
-    { name: "Projects", link: "projects" },
+    { name: "RecentProjects", link: "projects" },
     { name: "Contact", link: "contact" },
   ];
 
@@ -49,7 +49,7 @@ function App() {
           <Experience />
         </Element>
         <Element name="projects">
-          <Projects />
+          <RecentProjects />
         </Element>
         <Element name="contact">
           <Contact />
