@@ -1,7 +1,7 @@
 import React from 'react'
 import { Spotlight } from "../Components/ui/Spotlight";
 import { TextGenerateEffect } from "../Components/ui/text-generate-effect";
-import { FlipWords } from "../Components/ui/flip-words";
+import { FlipWords } from "../Components/ui/FlipWords";
 
 
 
