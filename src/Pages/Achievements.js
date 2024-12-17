@@ -29,7 +29,7 @@ function Achievements() {
     },
       {
       quote: "",
-      name: "",
+      name: "IntelliJ IDEA Community Edition Essential Training",
       designation: "Web Development & Designing",
       src: "/C1 (5).png", // Replace with your image path
     },
