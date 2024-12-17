@@ -10,7 +10,7 @@ const Approach = () => {
           <span className="text-white">What </span>
           <span className="text-purple-300">I Do</span>
         </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 text-white">
         <Card
           title="Frontend Development"
           icon={<AceternityIcon order="Frontend Development" />}
