@@ -64,7 +64,7 @@ const RecentProjects = () => {
   return (
     <section id="projects" className="py-1">
       <div className="py-20 w-full">
-        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl uppercase font-bold text-center">
+        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
           <span className="text-white">A small seclection of </span>
           <span className="text-purple-300">Recent Projects</span>
         </h1>

@@ -6,7 +6,7 @@ const Approach = () => {
   return (
     <section className="w-full py-1">
       <div className="py-20 w-full">
-        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl uppercase font-bold text-center">
+        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
           <span className="text-white">What </span>
           <span className="text-purple-300">I Do</span>
         </h1>

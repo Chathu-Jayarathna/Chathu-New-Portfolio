@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <section id="workExperience" className="py-1">
       <div className="py-20 w-full">
-        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl uppercase font-bold text-center">
+        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
           <span className="text-white">My </span>
-          <span className="text-purple-300">work experience</span>
+          <span className="text-purple-300">Work Experience</span>
         </h1>
 
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

@@ -6,9 +6,11 @@ import { HoverEffect } from "../Components/ui/CardHoverEffect"; // Import HoverE
 const Skills = () => {
   return (
     <section id="skills" className="py-20">
- <h1 className="text-4xl mt-12  tracking-wider md:text-6xl uppercase font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-                    Professional <span className="text-purple">Skills</span>
-                </h1>
+      <div className="py-20 w-full">
+        <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
+          <span className="text-white">Professional </span>
+          <span className="text-purple-300">Skills</span>
+        </h1>
 
       <h2 className="subheading text-lg text-center text-gray-700 mt-4">
         Languages, Frameworks, Tools, and Other Technologies Used
@@ -41,7 +43,7 @@ const Skills = () => {
           // Add more items here as necessary
         ]}
       />
-
+</div>
     </section>
   );
 };
