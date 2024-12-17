@@ -266,32 +266,33 @@ export const BentoGridItem = ({
       <Lottie options={defaultOptions} height={200} width={400} />
     </div>
 
-    {/* Buttons container: horizontal on desktop, vertical on mobile */}
-    <div className="mt-4 flex flex-col md:flex-row gap-4">
+    {/* Buttons container: vertical with reduced gap */}
+    <div className="mt-4 flex flex-col gap-2"> {/* Reduced gap from 4 to 2 */}
       {/* Magic Button for Resume */}
-      <div className="w-full md:w-auto">
+      <div className="w-full">
         <MagicButton
-          title="Open Resume"
+          title="Resume"
           icon={<IoCopyOutline />}
           position="left"
           handleClick={() => window.open('/path/to/resume.pdf', '_blank')}
-          otherClasses="!bg-[#161A31] !text-white"
+          otherClasses="!bg-[#161A31] !text-white w-full max-w-xs mx-auto"
         />
       </div>
 
       {/* Magic Button for Video Introduction */}
-      <div className="w-full md:w-auto">
+      <div className="w-full">
         <MagicButton
-          title="Watch Video Introduction"
+          title="Video Introduction"
           icon={<IoCopyOutline />}
           position="left"
           handleClick={() => window.open('https://link-to-video.com', '_blank')}
-          otherClasses="!bg-[#161A31] !text-white"
+          otherClasses="!bg-[#161A31] !text-white w-full max-w-xs mx-auto"
         />
       </div>
     </div>
   </div>
 )}
+
 
         </div>
       </div>
