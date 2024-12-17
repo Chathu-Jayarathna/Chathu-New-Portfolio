@@ -89,7 +89,7 @@ function IconContainer({
         style={{ width, height }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className="aspect-square rounded-full bg-gray-200 dark:bg-[#95a0e116] flex items-center justify-center relative"
+        className="aspect-square rounded-full bg-[#c195e177] dark:bg-[#95a0e116] flex items-center justify-center relative"
       >
         <AnimatePresence>
           {hovered && (
@@ -105,7 +105,7 @@ function IconContainer({
         </AnimatePresence>
         <motion.div
           style={{ width: widthIcon, height: heightIcon }}
-          className="flex items-center justify-center"
+          className="flex items-center justify-center text-white"
         >
           {icon}
         </motion.div>
