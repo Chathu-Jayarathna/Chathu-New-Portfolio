@@ -12,12 +12,12 @@ import Approach from './Pages/Approach';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import { TracingBeam } from "./Components/ui/tracing-beam";
-import { FloatingNav } from "./Components/ui/floating-navbar";
+import { FloatingNav } from "./Components/ui/FloatingNavbar";
 
 function App() {
   const navItems = [
     { name: "About", link: "about" },
-    { name: "Skills", link: "skills" }, // Referencing sections by name
+    { name: "Skills", link: "skills" },
     { name: "Experience", link: "workExperience" },
     { name: "RecentProjects", link: "projects" },
     { name: "Approach", link: "" },
@@ -37,11 +37,10 @@ function App() {
     <Router>
       <FloatingNav 
         navItems={navItems} 
-        onNavClick={handleNavClick} // Add handler to FloatingNav for click
+        onNavClick={handleNavClick} // Pass the handler to FloatingNav
       />
       <Home />
       <TracingBeam>
-        {/* Wrap each section in an Element for react-scroll */}
         <Element name="about">
           <About />
         </Element>
@@ -57,14 +56,14 @@ function App() {
         <Element name="achievements">
           <Achievements />
         </Element>
-        <Element name="">
+        <Element name="approach">
           <Approach />
         </Element>
         <Element name="contact">
           <Contact />
         </Element>
       </TracingBeam>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
