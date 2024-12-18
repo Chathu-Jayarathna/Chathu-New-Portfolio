@@ -10,7 +10,7 @@ import RecentProjects from './Pages/RecentProjects';
 import Achievements from './Pages/Achievements';
 import Approach from './Pages/Approach';
 import Contact from './Pages/Contact';
-import { TracingBeam } from "./Components/ui/tracing-beam";
+
 import { FloatingNav } from "./Components/ui/FloatingNavbar";
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         onNavClick={handleNavClick} // Pass the handler to FloatingNav
       />
       <Home />
-      <TracingBeam>
+      
         <Element name="about">
           <About />
         </Element>
@@ -61,7 +61,7 @@ function App() {
         <Element name="contact">
           <Contact />
         </Element>
-      </TracingBeam>
+      
     </Router>
   );
 }
