@@ -28,18 +28,9 @@ const Contact = () => {
   ];
 
   return (
-    <footer className="w-full pt-20 pb-10 relative" id="contact">
+    <footer className="pt-20 pb-10 px-5 md:px-20 relative" id="contact">
       {/* Add the StarsBackground component here */}
       <StarsBackground />
-
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50"
-        />
-      </div>
 
       <div className="flex flex-col items-center">
         <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">

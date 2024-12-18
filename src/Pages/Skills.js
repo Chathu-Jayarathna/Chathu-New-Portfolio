@@ -6,7 +6,7 @@ import { HoverEffect } from "../Components/ui/CardHoverEffect"; // Import HoverE
 const Skills = () => {
   return (
     <section id="skills" className="py-20">
-      <div className="py-20 w-full">
+      <div className="px-5 md:px-20 lg:px-40">
         <h1 className="text-4xl mt-12 tracking-wider md:text-6xl font-bold text-center">
           <span className="text-white">Professional </span>
           <span className="text-purple-300">Skills</span>
